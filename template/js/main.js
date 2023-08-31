@@ -6,7 +6,7 @@ import TabModule from "./module/TabModule.js";
 import HeaderModule from "./module/HeaderModule.js";
 import Tabs from "./module/tabs.js";
 import PopupModule from "./module/PopupModule.js";
-import CollapseModule from "./module/CollapseModule.js";
+// import CollapseModule from "./module/CollapseModule.js";
 import BtnToTopModule from "./module/BtnToTopModule.js";
 
 window.addEventListener("DOMContentLoaded", () => {
@@ -23,5 +23,5 @@ window.addEventListener("DOMContentLoaded", () => {
     PopupModule();
     BtnToTopModule();
     Tabs();
-    CollapseModule()
+    // CollapseModule()
 });

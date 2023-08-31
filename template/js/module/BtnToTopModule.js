@@ -7,4 +7,17 @@ export default function BtnToTopModule() {
       window.scrollTo({ top: 0, behavior: 'smooth' });
     })
   }
+
+  const fixedbar = document.querySelector(".fixedbar");
+  if (fixedbar) {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 500) {
+        fixedbar.classList.add("showed");
+
+      } else {
+        fixedbar.classList.remove("showed");
+
+      }
+    })
+  }
 }

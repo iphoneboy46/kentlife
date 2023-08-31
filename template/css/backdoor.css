@@ -1,0 +1,13 @@
+.fixedbar{
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s linear;
+    bottom: 10rem !important;
+    
+}
+
+
+.fixedbar.showed{
+    opacity: 1;
+    visibility: visible;
+}
