@@ -9,6 +9,7 @@
 
     &-ic {
         margin-top: -0.4rem;
+
         i {
             font-size: 1.4rem;
             line-height: 1.5;
@@ -22,8 +23,8 @@
         display: flex;
         align-items: center;
 
-        &.current-menu-item{
-            .menu-link{
+        &.current-menu-item {
+            .menu-link {
                 background-color: $color-pri;
                 color: $color-second;
             }
@@ -31,16 +32,16 @@
 
         &.dropdown {
             @include hover {
-                & > .menu-list {
+                &>.menu-list {
                     opacity: 1;
                     visibility: visible;
-            transition: all 0.5s linear;
+                    transition: all 0.5s linear;
 
                 }
             }
         }
 
-        & > .menu-list {
+        &>.menu-list {
             position: absolute;
             top: calc(100% + 0.1rem);
             opacity: 0;
@@ -53,10 +54,10 @@
             background-color: $color-second;
             box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
 
-            z-index:2;
+            z-index: 2;
             transition: all 0s linear;
 
-            &::before{
+            &::before {
                 content: "";
                 position: absolute;
                 width: 100%;
@@ -78,14 +79,28 @@
         }
 
         @include hover {
-            & > .menu-link {
+            &>.menu-link {
                 background-color: $color-pri;
                 color: $color-second;
+
+                animation: doiMau 1.2s ease-in-out forwards;
+
+                @keyframes doiMau {
+                    0% {
+                        background-color: $color-pri;
+
+                    }
+
+                    100% {
+                        background-color: $color-third;
+
+                    }
+                }
             }
         }
     }
 
-   
+
 
     &-link {
         padding: 0.9rem 2.5rem;
