@@ -7,7 +7,16 @@
 }
 
 
+
+
 .fixedbar.showed{
     opacity: 1;
     visibility: visible;
+}
+
+@media screen and (max-width:600px) {
+    .fixedbar{
+        right: 1rem;
+    }
+   
 }

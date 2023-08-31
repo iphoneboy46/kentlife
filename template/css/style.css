@@ -2849,6 +2849,17 @@ body:has(.seclect2-seach-show) .select2-container .select2-dropdown .select2-res
     transform: translateY(-5%);
   }
 }
+@media screen and (max-width: 600px) {
+  .btn-to-top {
+    right: 1rem;
+    width: 3.8rem;
+    height: 3.8rem;
+  }
+  .btn-to-top img {
+    width: 2.4rem;
+    height: 2.4rem;
+  }
+}
 
 .swiper {
   width: 100%;

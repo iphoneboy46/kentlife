@@ -224,4 +224,15 @@
     @include hover {
         transform: translateY(-5%);
     }
+
+    @media screen and (max-width:600px) {
+        right: 1rem;
+        width: 3.8rem;
+        height: 3.8rem;
+
+        img {
+            width: 2.4rem;
+            height: 2.4rem;
+        }
+    }
 }
