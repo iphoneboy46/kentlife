@@ -1,0 +1,13 @@
+.btn {
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    column-gap: 0.8rem;
+    color: #fff;
+    @include fz-15;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.075px;
+}

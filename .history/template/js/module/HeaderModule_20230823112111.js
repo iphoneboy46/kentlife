@@ -1,0 +1,8 @@
+export default function HeaderModule(){
+    const btnSearch = document.querySelector("btn-search");
+    if(btnSearch){
+        btnSearch.addEventListener("click",()=>{
+            
+        })
+    }
+}

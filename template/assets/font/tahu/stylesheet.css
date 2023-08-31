@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Tahu';
+    src: url('Tahu.eot');
+    src: url('Tahu.eot?#iefix') format('embedded-opentype'),
+        url('Tahu.woff2') format('woff2'),
+        url('Tahu.woff') format('woff'),
+        url('Tahu.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tahu!';
+    src: url('Tahu_1.eot');
+    src: url('Tahu_1.eot?#iefix') format('embedded-opentype'),
+        url('Tahu_1.woff2') format('woff2'),
+        url('Tahu_1.woff') format('woff'),
+        url('Tahu_1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

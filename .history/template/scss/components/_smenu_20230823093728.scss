@@ -1,0 +1,35 @@
+.menu {
+    &-list {
+        display: flex;
+        align-items: center;
+        margin-left: -1.2rem;
+        margin-right: -1.2rem;
+    }
+
+    &-ic {
+        margin-top: -0.6rem;
+        i {
+            font-size: 1.4rem;
+            line-height: 1.5;
+        }
+    }
+
+    &-item {
+        padding: 0 1.2rem;
+        
+      
+    }
+
+    &-link {
+        padding: 0.9rem 2.5rem;
+        color: $color-text;
+        @include  fz-16;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        display: block;
+        column-gap: 0.6rem;
+        display: flex;
+        align-items: center;
+    }
+}

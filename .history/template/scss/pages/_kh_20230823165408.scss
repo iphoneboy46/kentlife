@@ -1,0 +1,64 @@
+.box-plane {
+    &-item {
+        max-width: 22rem;
+        width: 100%;
+        &:first-child {
+            position: absolute;
+            top: 15%;
+            left: 20%;
+
+            animation: mayBay1 3s linear infinite;
+
+            @keyframes mayBay1 {
+                0% {
+                    transform: translateY(0) ;
+                }
+
+                50% {
+                    transform: translateY(5%) ;
+                }
+
+               
+                100% {
+                   
+                    transform:translateY(0) ;
+                }
+            }
+        }
+
+        &:last-child {
+            position: absolute;
+            top: 22%;
+            right: 20%;
+
+            animation: mayBay 3s linear infinite;
+
+            @keyframes mayBay {
+                0% {
+                    transform: translateY(0) ;
+                }
+
+                50% {
+                    transform: translateY(-5%);
+                }
+
+               
+                100% {
+                   
+                    transform:translateY(0);
+                }
+            }
+        }
+    }
+
+    &-img {
+        padding-top: calc(100% * 91 / 227);
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+
+        img {
+            @include imgContain;
+        }
+    }
+}

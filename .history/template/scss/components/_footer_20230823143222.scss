@@ -1,0 +1,85 @@
+.footer {
+    padding-top: 17rem;
+    padding-bottom: 5rem;
+    background-color: $color-pri;
+    position: relative;
+
+    &-des {
+        color: $color-second;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 150%; /* 21px */
+    }
+
+    &-title {
+        color: $color-second;
+        @include fz-16;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.5;
+    }
+
+    &-logo {
+        width: 38rem;
+        height: 38rem;
+        border-radius: 38.4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        background-color: $color-second;
+        position: absolute;
+        top: -10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        &-img {
+            width: 20.4rem;
+            height: 20.4rem;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
+
+.list-address {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+
+.item-address {
+    display: flex;
+    align-items: start;
+    column-gap: 0.8rem;
+}
+
+.ic-address {
+    width: 1.6rem;
+    height: 1.6rem;
+    flex-shrink: 0;
+    margin-top: 0.1rem;
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.link-address {
+    color: $color-second;
+    @include fz-14;
+    display: block;
+    width: 100%;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5; /* 21px */
+
+    @include hover {
+        color: $color-green;
+    }
+}

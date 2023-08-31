@@ -1,0 +1,51 @@
+.about-edu {
+    .title-main{
+        text-align: start;
+    }
+    .title-note{
+        text-align: start;
+    }
+    &-lf {
+        width: calc(5 * 100% / 12);
+
+        &-text {
+            color: $color-text4;
+            @include fz-16;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 1.4;
+            letter-spacing: 0.08px;
+            margin-bottom: 3rem;
+        }
+
+
+        &-list{
+            display: flex;
+            flex-direction: column;
+            row-gap: 2rem;
+        }
+
+        &-item{
+            color: $color-text4;
+            @include fz-16;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 1.6;
+            letter-spacing: 0.08px;
+            position: relative;
+            padding-left: 2.4rem;
+            &::before{
+                content: "";
+                position: absolute;
+                top: 0.2rem;
+                left: 0;
+                background-image: url(../assets/images/check2.svg);
+                // transform: translateY(-50%);
+                width: 1.8rem;
+                height: 1.8rem;
+               
+                
+            }
+        }
+    }
+}

@@ -1,0 +1,14 @@
+.contact-des{
+
+
+    &-list{
+        max-width: 97rem;
+        width: 100%;margin: auto;
+        display: flex;
+        justify-content:space-between ;
+    }
+
+    &-item{
+        width:fit-content;
+    }
+}

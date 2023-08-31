@@ -1,0 +1,88 @@
+.menu {
+    &-list {
+        display: flex;
+
+        margin-left: -1.2rem;
+        margin-right: -1.2rem;
+        height: 100%;
+    }
+
+    &-ic {
+        margin-top: -0.4rem;
+        i {
+            font-size: 1.4rem;
+            line-height: 1.5;
+        }
+    }
+
+    &-item {
+        padding: 0 1.2rem;
+        position: relative;
+        height: 100%;
+        display: flex;
+        align-items: center;
+
+        &.dropdown {
+            @include hover {
+                & > .menu-list {
+                    top: calc(100% + 0.5rem);
+                }
+            }
+        }
+
+        & > .menu-list {
+            position: absolute;
+            top:-100%;
+            left: 15%;
+            display: flex;
+            flex-direction: column;
+            min-width: 20rem;
+            height: auto;
+            background-color: $color-second;
+            box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.3);
+            z-index: -1;
+            transition: all 0.5s linear;
+
+            &::before{
+                content: "";
+                position: absolute;
+                width: 100%;
+                height: 2rem;
+                background-color: red;
+                top: -10%;
+                left: 0;
+            }
+
+            .menu-item {
+                padding: 0;
+            }
+
+            .menu-link {
+                width: 100%;
+                border-radius: 0;
+            }
+        }
+
+        @include hover {
+            & > .menu-link {
+                background-color: $color-pri;
+                color: $color-second;
+            }
+        }
+    }
+
+    &-link {
+        padding: 0.9rem 2.5rem;
+        color: $color-text;
+        @include fz-16;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        display: block;
+        column-gap: 0.6rem;
+        display: flex;
+        align-items: center;
+        border-radius: 5.2rem;
+        background-color: transparent;
+    }
+}

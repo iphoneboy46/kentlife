@@ -1,0 +1,70 @@
+.btn {
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    column-gap: 0.8rem;
+   
+    background-color: $color-third;
+    width: fit-content;
+    border-radius: 6rem;
+    transition: all 0.3s linear;
+    @include hover{
+        background-color:$color-pri;
+
+    }
+
+
+    &-text{
+        color: $color-second;
+        @include fz-15;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.075px;
+    }
+
+    &-ic{
+        flex-shrink: 0;
+
+        i{
+            font-size: 1.6rem;
+            color: $color-second;
+        }
+    }
+}
+
+
+.box-navi{
+
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    column-gap: 1.2rem;
+
+    .btn-navi{
+        width: 4.2rem;
+        height: 4.2rem;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:transparent;
+        transition: all 0.3s linear;
+        @include hover{
+            background-color: $color-pri;
+
+            i{
+                color: $color-second;
+            }
+        }
+
+        
+
+        i{
+            color: $color-pri;
+        transition: all 0.3s linear;
+
+            font-size: 1.4rem;
+        }
+    }
+}

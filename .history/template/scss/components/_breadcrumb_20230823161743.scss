@@ -1,0 +1,25 @@
+.breadcrumbs {
+    width: fit-content;
+    margin: 0 auto 4rem;
+    background: $color-pri;
+    padding: 1.5rem 8rem;
+    border-radius: 10rem;
+    &-list {
+        display: flex;
+        align-items: center;
+        column-gap: 6.4rem;
+    }
+
+    &-item {
+        position: relative;
+    }
+
+    &-link {
+        color: #fff;
+        @include fz-16l;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}

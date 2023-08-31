@@ -1,0 +1,38 @@
+.post-sl {
+    &-list {
+    }
+
+    &-item {
+        border-radius: 0.8rem;
+        overflow: hidden;
+
+        &-image {
+            position: relative;
+        }
+
+        &-time {
+            border-radius: 0.8rem;
+            padding: 1rem;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        &-img {
+            padding-top: calc(100% * 284 / 384);
+            width: 100%;
+            position: relative;
+            overflow: hidden;
+
+            img {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                object-fit: cover;
+            }
+        }
+    }
+}

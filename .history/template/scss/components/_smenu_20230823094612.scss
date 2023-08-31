@@ -1,0 +1,54 @@
+.menu {
+    &-list {
+        display: flex;
+        
+        margin-left: -1.2rem;
+        margin-right: -1.2rem;
+        height: 100%;
+    }
+
+    &-ic {
+        margin-top: -0.4rem;
+        i {
+            font-size: 1.4rem;
+            line-height: 1.5;
+        }
+    }
+
+    &-item {
+        padding: 0 1.2rem;
+        position: relative;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        & > .menu-list{
+            position: absolute;
+            top: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        
+      @include hover{
+        & > .menu-link{
+            background-color: $color-pri;
+            color: $color-second;
+        }   
+      }
+    }
+
+    &-link {
+        padding: 0.9rem 2.5rem;
+        color: $color-text;
+        @include  fz-16;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        display: block;
+        column-gap: 0.6rem;
+        display: flex;
+        align-items: center;
+        border-radius: 5.2rem;
+        background-color: transparent;
+
+    }
+}

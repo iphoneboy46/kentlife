@@ -1,0 +1,43 @@
+.breadcrumbs {
+    width: fit-content;
+    margin: 0 auto 4rem;
+    background: $color-pri;
+    padding: 1.5rem 8rem;
+    border-radius: 10rem;
+    &-list {
+        display: flex;
+        align-items: center;
+        column-gap: 6.4rem;
+    }
+
+    &-item {
+        position: relative;
+
+     
+
+        &:not(:last-child){
+            &::before{
+                content: "";
+                position: absolute;
+                top: 50%;
+                right: -5rem;
+                
+               width: 4rem;
+               height: 0.1rem;
+               background-color: white;
+            }
+        }
+    }
+
+    &-link {
+        color: $color-second;
+        @include fz-16;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+        @include hover{
+            color: $color-green;
+        }
+    }
+}

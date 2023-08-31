@@ -1,0 +1,45 @@
+.header{
+    height: 10rem;
+    position: relative;
+    background-color: white;
+    box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.3);
+
+    
+    &::before{
+        content: "";
+        position: absolute;
+        left: 100%;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        background-color: $color-second;
+        box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.3);
+        width: 25rem;
+        height: 10rem;
+        border-radius:0 0 50% 50%;
+        z-index: -1;
+    }
+
+
+    &-wrap{
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
+
+    &-lf{
+       height: 100%;
+       display: flex;
+       align-items: center;
+
+    }
+
+    &-logo{
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 11.4rem;
+        height: 11.4rem;
+
+    }
+}

@@ -1,0 +1,20 @@
+.box-plane{
+
+    &-item{
+       max-width: 22rem; 
+
+
+    }
+
+    &-img{
+        padding-top: calc(100% * 91 / 227);
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+
+
+        img{
+            @include imgContain
+        }
+    }
+}

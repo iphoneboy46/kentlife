@@ -1,0 +1,7 @@
+.our-team{
+    &-item{
+        display: flex;
+        padding-bottom: 10rem;
+        border-bottom: 0.2rem solid rgba($color: $color-pri, $alpha: 0.1)
+    }
+}

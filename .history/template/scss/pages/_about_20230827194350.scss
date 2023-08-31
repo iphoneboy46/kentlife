@@ -1,0 +1,20 @@
+.about-edu {
+    .title-main{
+        text-align: start;
+    }
+    .title-note{
+        text-align: start;
+    }
+    &-lf {
+        width: calc(5 * 100% / 12);
+
+        &-text {
+            color: $color-text4;
+            @include fz-16;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 1.4;
+            letter-spacing: 0.08px;
+        }
+    }
+}

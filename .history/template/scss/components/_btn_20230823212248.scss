@@ -1,0 +1,29 @@
+.btn {
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    column-gap: 0.8rem;
+   
+    background-color: $color-third;
+    width: fit-content;
+    border-radius: 6rem;
+
+
+    &-text{
+        color: $color-second;
+        @include fz-15;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.075px;
+    }
+
+    &-ic{
+        flex-shrink: 0;
+
+        i{
+            font-size: 1.4rem;
+            color: $color-second;
+        }
+    }
+}

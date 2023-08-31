@@ -1,0 +1,59 @@
+.header{
+    height: 10rem;
+    position: relative;
+    background-color: white;
+    box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.3);
+
+    
+    &::before{
+        content: "";
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        top: 50%;
+        background-color: $color-second;
+        box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.3);
+        width: 23rem;
+        height: 8rem;
+        border-radius:0 0 100% 100%;
+        z-index: -01;
+    }
+
+
+    &-wrap{
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
+
+    &-lf{
+       height: 100%;
+       display: flex;
+       align-items: center;
+
+    }
+
+    &-logo{
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        display: block;
+        background-color: white;
+        width: 23rem;
+        height: calc(100% + 1rem);
+        display: flex;
+        justify-content:center;
+        border-bottom-left-radius:1rem ;
+        &-wrap{
+        display: block;
+
+            width: 11.4rem;
+            height: 11.4rem;
+          
+
+
+        }
+       
+    }
+}

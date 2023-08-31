@@ -1,0 +1,18 @@
+.post-sl{
+    &-list{
+
+
+    }
+
+    &-item{
+        border-radius: 0.8rem;
+        overflow: hidden;
+
+        &-img{
+            padding-top: calc(100% * 284 / 384);
+            width: 100%;
+            position: relative;
+            overflow: hidden;
+        }
+    }
+}

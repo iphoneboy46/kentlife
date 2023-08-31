@@ -1,0 +1,51 @@
+.box-plane{
+
+    &-item{
+       max-width: 22rem; 
+        width: 100%;
+        &:first-child{
+            position: absolute;
+            top: 20%;
+            left: 20%;
+
+            animation: mayBay1 1s linear;
+
+            @keyframes mayBay1 {
+                0%{
+                    top: 20%;
+                    left: 0;
+                }
+
+                50%{
+                    left: 10%;
+                    transform:rotate(180deg);
+                }
+
+                100%{
+                    top: 20%;
+                    left: 20%;
+                    transform:rotate(0deg);
+
+                }
+            }
+        }
+
+        &:last-child{
+            position: absolute;
+            top: 25%;
+            right: 20%;
+        }
+    }
+
+    &-img{
+        padding-top: calc(100% * 91 / 227);
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+
+
+        img{
+            @include imgContain
+        }
+    }
+}

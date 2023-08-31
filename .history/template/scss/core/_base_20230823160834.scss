@@ -1,0 +1,195 @@
+@import url("../assets/font/Montserrat/stylesheet.css");
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+
+    @media screen and (min-width: 2000px) {
+        font-size: 100%;
+    }
+}
+
+body {
+    font-family: "Montserrat";
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-weight: 400;
+    -webkit-tap-highlight-color: transparent;
+    color: $color-text;
+
+    @media screen and (min-width: 2000px) {
+        font-size: 2rem;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+
+    @include transition(0.3s);
+
+    @include min(1200px) {
+        &:hover {
+            color: $color-pri;
+        }
+    }
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:active,
+input:-webkit-autofill:focus {
+    background-color: white !important;
+    color: black !important;
+    -webkit-box-shadow: 0 0 0 1000px white inset !important;
+    -webkit-text-fill-color: black !important;
+}
+
+button,
+select {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    -webkit-appearance: none;
+    cursor: pointer;
+}
+
+button {
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+input,
+textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+button,
+select,
+input,
+textarea {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    font-family: "Montserrat";
+    color: black;
+    background: transparent;
+
+    &:focus {
+        border: none;
+        outline: none;
+        box-shadow: none;
+    }
+
+    &:focus-visible {
+        border: none;
+        outline: none;
+        box-shadow: none;
+    }
+}
+
+.main {
+    min-height: 50vh;
+
+    &.pt{
+        padding-top: 10rem;
+
+        @media screen and (max-width:1200px) {
+            padding-top: 8rem;
+        }
+    }
+
+    &.pt2{
+        padding-top: 15rem;
+
+        @media screen and (max-width:1200px) {
+            padding-top: 13rem;
+        }
+    }
+
+    
+}
+
+.container {
+    width: 100%;
+    max-width: 123rem;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+
+    @include max(800px) {
+        padding: 0 0.8rem;
+    }
+
+    @include max(600px) {
+        padding: 0 0.6rem;
+    }
+}
+
+.no-scroll {
+    touch-action: none;
+    -webkit-overflow-scrolling: none;
+    overflow: hidden;
+    overscroll-behavior: none;
+}
+
+iframe {
+    vertical-align: middle;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.t-center {
+    text-align: center;
+}
+
+.fw-b {
+    font-weight: bold;
+}
+
+.fsi {
+    font-style: italic;
+}
+
+.t-up {
+    text-transform: uppercase;
+}
+
+.tabBtn {
+    cursor: pointer;
+}
+
+.gItem {
+    cursor: pointer;
+}
+
+.global-title {
+    max-width: 0;
+    max-height: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0.3rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background: $color-pri;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
