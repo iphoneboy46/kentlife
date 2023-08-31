@@ -1592,6 +1592,7 @@ img {
 }
 .menu-mb .menu-item .menu-link {
   padding: 1rem 1rem 1rem 1.2rem;
+  font-size: 2rem;
 }
 .menu-mb .menu-ic-mb {
   flex-shrink: 0;
@@ -1639,6 +1640,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 1rem;
 }
 .social-mb-item {
   width: 100%;
@@ -1660,7 +1662,7 @@ img {
 }
 
 .menu-lh {
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
   padding: 0 0.6rem;
 }
 .menu-lh-title {
@@ -1675,6 +1677,11 @@ img {
   .menu-lh-title {
     font-size: 1.4rem;
   }
+}
+
+.menu-mxh {
+  padding: 0 0.6rem;
+  margin-bottom: 1rem;
 }
 
 .footer {
@@ -10362,6 +10369,14 @@ button[aria-label="Toggle autoplay"] {
     left: 30%;
   }
 }
+@media screen and (max-width: 415px) {
+  .form-main-rt .box-qc-rt-wrap::before {
+    width: 20rem;
+    height: 20rem;
+    top: 10%;
+    left: 30%;
+  }
+}
 .form-main-rt .box-qc-rt-wrap::after {
   width: 45rem;
   height: 45rem;
@@ -10403,6 +10418,14 @@ button[aria-label="Toggle autoplay"] {
     width: 20rem;
     height: 20rem;
     top: 20%;
+    left: 30%;
+  }
+}
+@media screen and (max-width: 415px) {
+  .form-main-rt .box-qc-rt-wrap::after {
+    width: 20rem;
+    height: 20rem;
+    top: 10%;
     left: 30%;
   }
 }

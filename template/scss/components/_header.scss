@@ -512,6 +512,7 @@
             // width: 100%;
 
             padding: 1rem 1rem 1rem 1.2rem;
+            font-size: 2rem;
         }
     }
 
@@ -561,10 +562,13 @@
 }
 
 .social-mb {
+
+
     &-list {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        margin-bottom: 1rem;
     }
 
     &-item {
@@ -600,6 +604,11 @@
         margin-bottom: 1rem;
     }
 
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     padding: 0 0.6rem;
+}
+
+.menu-mxh {
+    padding: 0 0.6rem;
+    margin-bottom: 1rem;
 }

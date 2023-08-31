@@ -1635,6 +1635,13 @@
                     top: 10%;
                     left: 30%;
                 }
+
+                @media screen and (max-width: 415px) {
+                    width: 20rem;
+                    height: 20rem;
+                    top: 10%;
+                    left: 30%;
+                }
             }
 
             &::after {
@@ -1673,6 +1680,13 @@
                     width: 20rem;
                     height: 20rem;
                     top: 20%;
+                    left: 30%;
+                }
+
+                @media screen and (max-width: 415px) {
+                    width: 20rem;
+                    height: 20rem;
+                    top: 10%;
                     left: 30%;
                 }
             }
