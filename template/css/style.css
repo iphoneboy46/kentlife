@@ -1565,7 +1565,7 @@ img {
   align-items: unset;
   padding-right: 2.4rem;
 }
-.menu-mb .menu-item.current-menu-item .menu-link {
+.menu-mb .menu-item.current-menu-item > .menu-link {
   background-color: transparent;
   color: #1D2956;
   font-weight: 700;

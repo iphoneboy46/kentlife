@@ -470,7 +470,7 @@
         padding-right: 2.4rem;
 
         &.current-menu-item {
-            .menu-link {
+            &>.menu-link {
                 background-color: transparent;
                 color: $color-pri;
                 font-weight: 700;
