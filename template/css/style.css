@@ -292,6 +292,9 @@ body {
     font-size: 2rem;
   }
 }
+body.actived {
+  overflow: hidden;
+}
 
 a {
   text-decoration: none;
@@ -1609,6 +1612,11 @@ img {
 .menu-mb.actived {
   left: 0;
 }
+@media screen and (max-width: 1025px) {
+  .menu-mb {
+    width: 40%;
+  }
+}
 @media screen and (max-width: 800px) {
   .menu-mb {
     width: 45%;
@@ -1647,9 +1655,6 @@ img {
   display: flex;
   justify-content: center;
 }
-.social-mb-item:not(:last-child) {
-  border-right: 0.1rem solid #191A1C;
-}
 .social-mb-link {
   width: 2.4rem;
   height: 2.4rem;
@@ -1680,8 +1685,9 @@ img {
 }
 
 .menu-mxh {
-  padding: 0 0.6rem;
+  padding: 0 0.6rem 0.3rem;
   margin-bottom: 1rem;
+  border-bottom: 0.1rem solid rgba(29, 41, 86, 0.3);
 }
 
 .footer {
