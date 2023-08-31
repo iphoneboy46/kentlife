@@ -2335,7 +2335,7 @@ body:has(.seclect2-seach-show) .select2-container .select2-dropdown .select2-res
   display: flex;
   align-items: center;
 }
-.menu-item.current-menu-item .menu-link {
+.menu-item.current-menu-item > .menu-link {
   background-color: #1D2956;
   color: #FFFFFF;
 }

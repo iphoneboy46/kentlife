@@ -24,7 +24,7 @@
         align-items: center;
 
         &.current-menu-item {
-            .menu-link {
+            &>.menu-link {
                 background-color: $color-pri;
                 color: $color-second;
             }
