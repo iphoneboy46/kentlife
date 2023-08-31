@@ -7,6 +7,7 @@ import HeaderModule from "./module/HeaderModule.js";
 import Tabs from "./module/tabs.js";
 import PopupModule from "./module/PopupModule.js";
 import CollapseModule from "./module/CollapseModule.js";
+import BtnToTopModule from "./module/BtnToTopModule.js";
 
 window.addEventListener("DOMContentLoaded", () => {
     // Animation
@@ -20,6 +21,7 @@ window.addEventListener("DOMContentLoaded", () => {
     GalleryModule();
     HeaderModule();
     PopupModule();
+    BtnToTopModule();
     Tabs();
     CollapseModule()
 });
