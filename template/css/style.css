@@ -2476,6 +2476,7 @@ body:has(.seclect2-seach-show) .select2-container .select2-dropdown .select2-res
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  max-width: 30rem;
 }
 .breadcrumbs-item:not(:last-child)::before {
   content: "";
