@@ -11574,6 +11574,29 @@ button[aria-label="Toggle autoplay"] {
   .kh-wrap-sl .container-2 .swiper-slide {
     width: 100%;
   }
+  .kh-wrap-sl .container-2 .btn-navi {
+    background-color: #1D2956;
+    width: 3.2rem;
+    height: 3.2rem;
+  }
+  .kh-wrap-sl .container-2 .btn-navi i {
+    color: #FFFFFF;
+    font-size: 1.2rem;
+  }
+  .kh-wrap-sl .container-2 .btn-navi.prev {
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    left: -3%;
+    z-index: 1;
+  }
+  .kh-wrap-sl .container-2 .btn-navi.next {
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    right: -3%;
+    z-index: 1;
+  }
 }
 @media screen and (max-width: 1310px) {
   .kh-wrap-sl .btn-navi {

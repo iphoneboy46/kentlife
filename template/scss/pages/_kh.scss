@@ -466,6 +466,34 @@
             .swiper-slide {
                 width: 100%;
             }
+
+            .btn-navi {
+                background-color: $color-pri;
+    
+                width: 3.2rem;
+                height: 3.2rem;
+    
+                i{
+                    color: $color-second;
+                    font-size: 1.2rem;
+                }
+    
+                &.prev {
+                    position: absolute;
+                    transform: translateY(-50%);
+                    top: 50%;
+                    left: -3%;
+                    z-index: 1;
+                }
+    
+                &.next {
+                    position: absolute;
+                    transform: translateY(-50%);
+                    top: 50%;
+                    right: -3%;
+                    z-index: 1;
+                }
+            }
         }
     }
 
