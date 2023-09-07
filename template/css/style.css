@@ -12353,6 +12353,12 @@ button[aria-label="Toggle autoplay"] {
     padding-bottom: 0rem;
   }
 }
+@media screen and (max-width: 460px) {
+  .box-qc {
+    padding-top: 8rem;
+    padding-bottom: 0rem;
+  }
+}
 .box-qc-wrap {
   position: relative;
   display: flex;
@@ -13504,6 +13510,11 @@ button[aria-label="Toggle autoplay"] {
 
 .our-team-list {
   position: relative;
+}
+@media screen and (max-width: 1200px) {
+  .our-team {
+    margin-bottom: 2rem;
+  }
 }
 .our-team-item {
   position: relative;
@@ -14863,6 +14874,7 @@ button[aria-label="Toggle autoplay"] {
   .about-see-rt-note {
     text-align: center;
     padding-left: 0;
+    font-size: 1.6rem;
   }
   .about-see-rt-note::before {
     display: none;
@@ -14895,6 +14907,7 @@ button[aria-label="Toggle autoplay"] {
 @media screen and (max-width: 460px) {
   .about-see-rt-title {
     text-align: center;
+    font-size: 2rem;
   }
 }
 .about-see-rt-text {
@@ -15222,6 +15235,17 @@ button[aria-label="Toggle autoplay"] {
 @media screen and (max-width: 460px) {
   .about-pt-item-mb-text {
     font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .about-wait {
+    padding-bottom: 5rem;
+  }
+}
+@media screen and (max-width: 420px) {
+  .about-wait {
+    padding-bottom: 2rem;
   }
 }
 

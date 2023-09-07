@@ -545,6 +545,7 @@
             @media screen and (max-width:460px) {
                 text-align: center;
                 padding-left: 0;
+                font-size: 1.6rem;
                 &::before{
                     display: none;
                 }
@@ -570,7 +571,7 @@
 
             @media screen and (max-width:460px) {
                 text-align: center;
-                
+                font-size: 2rem;
             }
         }
 
@@ -978,5 +979,16 @@
             line-height: 140%; /* 22.4px */
             letter-spacing: 0.08px;
         }
+    }
+}
+
+
+.about-wait{
+    @media screen and (max-width:460px) {
+        padding-bottom: 5rem;
+    }
+
+    @media screen and (max-width:420px) {
+        padding-bottom: 2rem;
     }
 }

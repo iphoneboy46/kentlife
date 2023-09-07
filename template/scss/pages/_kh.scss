@@ -1209,6 +1209,11 @@
         padding-bottom: 0rem;
     }
 
+    @media screen and (max-width:460px) {
+        padding-top: 8rem;
+        padding-bottom: 0rem;
+    }
+
 
     &-wrap {
         position: relative;
