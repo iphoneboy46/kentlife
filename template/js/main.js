@@ -8,6 +8,7 @@ import Tabs from "./module/tabs.js";
 import PopupModule from "./module/PopupModule.js";
 // import CollapseModule from "./module/CollapseModule.js";
 import BtnToTopModule from "./module/BtnToTopModule.js";
+import ScrollToSectionModule from "./module/ScrollToSectionModule.js";
 
 window.addEventListener("DOMContentLoaded", () => {
     // Animation
@@ -24,4 +25,5 @@ window.addEventListener("DOMContentLoaded", () => {
     BtnToTopModule();
     Tabs();
     // CollapseModule()
+    ScrollToSectionModule();
 });

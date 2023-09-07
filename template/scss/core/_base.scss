@@ -23,7 +23,7 @@ body {
     font-family: "Montserrat";
     font-size: 1.6rem;
     line-height: 1.5;
-    font-weight: 400;
+    font-weight: 300;
     -webkit-tap-highlight-color: transparent;
     color: $color-text;
 
@@ -107,12 +107,13 @@ textarea {
 
 .main {
     min-height: 100vh;
+    overflow: hidden;
 
     &.pt {
         padding-top: 12rem;
 
         @media screen and (max-width: 1200px) {
-            padding-top: 8rem;
+            padding-top: 6rem;
         }
     }
 
@@ -120,7 +121,7 @@ textarea {
         padding-top: 15rem;
 
         @media screen and (max-width: 1200px) {
-            padding-top: 8rem;
+            padding-top: 6rem;
         }
     }
 }
@@ -132,13 +133,13 @@ textarea {
     margin: 0 auto;
     padding: 0 1.5rem;
 
-    @include max(800px) {
-        padding: 0 0.8rem;
-    }
+    // @include max(800px) {
+    //     padding: 0 0.8rem;
+    // }
 
-    @include max(600px) {
-        padding: 0 0.6rem;
-    }
+    // @include max(600px) {
+    //     padding: 0 0.6rem;
+    // }
 }
 
 .container-2 {
@@ -148,13 +149,13 @@ textarea {
     margin: 0 auto;
     padding: 0 1.5rem;
 
-    @include max(800px) {
-        padding: 0 0.8rem;
-    }
+    // @include max(800px) {
+    //     padding: 0 0.8rem;
+    // }
 
-    @include max(600px) {
-        padding: 0 0.6rem;
-    }
+    // @include max(600px) {
+    //     padding: 0 0.6rem;
+    // }
 }
 
 .no-scroll {
@@ -209,11 +210,12 @@ img {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: $color-pri;
+    background: $color-third !important;
 }
 
 ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: #f1f1f1 !important;
+    border-radius: 2rem;
 }
 
 .title-main {
@@ -222,8 +224,19 @@ img {
     @include fz-40;
 
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 1.3;
+
+    @media screen and (max-width:800px) {
+        font-size: 2.4rem;
+    }
+
+    @media screen and (max-width:600px) {
+        max-width: 30rem;
+        font-size: 2rem;
+
+        margin: 0.5rem auto 2rem;
+    }
 }
 
 .title-note {
@@ -232,7 +245,15 @@ img {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    letter-spacing: 1.92px;
     text-transform: uppercase;
     text-align: center;
+
+    @media screen and (max-width:800px) {
+        font-size: 1.5rem;
+    }
+
+    @media screen and (max-width:600px) {
+        font-size: 1.3rem;
+
+    }
 }

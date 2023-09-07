@@ -18,9 +18,25 @@
             box-shadow: 0 0 1rem rgba($color: #000000, $alpha: 0.2);
         }
 
+        @media screen and (max-width:1200px) {
+            background-color: $color-second;
+            box-shadow: 0 0 1rem rgba($color: #000000, $alpha: 0.2);
+        }
+
+        .detail-kh-des{
+            @media screen and (max-width:600px) {
+                margin-bottom: 1.2rem;
+            }
+        }
+
         &-image {
             position: relative;
             margin-bottom: 2.4rem;
+
+            @media screen and (max-width:600px) {
+                margin-bottom: 1.2rem;
+            
+            }
         }
 
         &-time {
@@ -35,6 +51,12 @@
             position: absolute;
             bottom: -3rem;
             right: 3rem;
+
+            @media screen and (max-width:600px) {
+                top: 0;
+                right: 0;
+                bottom: unset;
+            }
         }
 
         &-box {
@@ -43,13 +65,17 @@
             @media screen and (max-width: 1200px) {
                 padding: 1.2rem;
             }
+
+            @media screen and (max-width: 600px) {
+                padding: 0.8rem;
+            }
         }
 
         &-title {
             color: $color-black;
             @include fz-20;
             font-style: normal;
-            font-weight: 700;
+            font-weight: 600;
             line-height: 1.4;
             letter-spacing: 0.1px;
             margin-bottom: 1.6rem;
@@ -60,6 +86,11 @@
 
             @include hover {
                 color: $color-third;
+            }
+
+            @media screen and (max-width: 600px) {
+                font-size: 1.4rem;
+                margin-bottom: 1rem;
             }
         }
 
@@ -81,7 +112,7 @@
             color: $color-second;
             @include fz-20;
             font-style: normal;
-            font-weight: 600;
+            font-weight: 500;
             line-height: normal;
             letter-spacing: 1px;
             text-align: center;
@@ -89,6 +120,10 @@
             // @media screen and (max-width:600px) {
             //     font-size: 1.2rem;
             // }
+
+            @media screen and (max-width:600px) {
+                font-size: 1.4rem;
+            }
         }
 
         &-mon {
@@ -103,6 +138,10 @@
             // @media screen and (max-width:600px) {
             //     font-size: 1rem;
             // }
+
+            @media screen and (max-width:600px) {
+                font-size: 1.2rem;
+            }
         }
 
         &-img {
@@ -153,6 +192,7 @@
 
             &-ic {
                 i {
+                    font-size: 1.6rem;
                     color: #1c1919;
                     transition: all 0.3s linear;
                 }
@@ -166,8 +206,12 @@
 
                 @include fz-16;
                 font-style: normal;
-                font-weight: 700;
+                font-weight: 600;
                 line-height: 1.6;
+
+                @media screen and (max-width:600px) {
+                    font-size: 1.4rem;
+                }
             }
         }
     }
@@ -264,7 +308,7 @@
         color: $color-second;
         @include fz-16;
         font-style: normal;
-        font-weight: 400;
+        font-weight: 300;
         line-height: 1.5;
         /* 24px */
     }
@@ -349,6 +393,11 @@
 
             .detail-kh-des {
                 column-gap: 2.4rem;
+
+                @media screen and (max-width:600px) {
+                column-gap: 1.2rem;
+                    margin-bottom: 1rem;
+                }
             }
 
             .news-action-title {

@@ -79,7 +79,7 @@
             color: $color-second;
             @include fz-20;
             font-style: normal;
-            font-weight: 600;
+            font-weight: 500;
             line-height: normal;
             letter-spacing: 1px;
             text-align: center;
@@ -217,7 +217,7 @@
         color: $color-second;
         @include fz-20;
         font-style: normal;
-        font-weight: 600;
+        font-weight: 500;
         line-height: 1.4;
         margin-bottom: 1.4rem;
         display: block;
@@ -235,7 +235,7 @@
         color:$color-second;
         @include fz-16;
         font-style: normal;
-        font-weight: 400;
+        font-weight: 300;
         line-height: 1.5; /* 24px */
     }
 

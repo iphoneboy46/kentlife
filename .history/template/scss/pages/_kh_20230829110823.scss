@@ -142,7 +142,7 @@
         @include fz-20;
 
         font-style: normal;
-        font-weight: 600;
+        font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.3px;
     }
@@ -151,7 +151,7 @@
         color: $color-text4;
         @include fz-16;
         font-style: normal;
-        font-weight: 400;
+        font-weight: 300;
         line-height: 1.4;
         letter-spacing: 0.24px;
 
@@ -262,7 +262,7 @@
             color: $color-text3;
             @include fz-16;
             font-style: normal;
-            font-weight: 600;
+            font-weight: 500;
             line-height: normal;
             letter-spacing: 0.08px;
             &::before {
@@ -337,7 +337,7 @@
         text-align: center;
         @include fz-16;
         font-style: normal;
-        font-weight: 400;
+        font-weight: 300;
         line-height: 1.4; /* 22.4px */
         letter-spacing: 0.24px;
         max-width: 79.2rem;
@@ -349,7 +349,7 @@
         text-align: center;
         @include fz-16;
         font-style: normal;
-        font-weight: 600;
+        font-weight: 500;
         line-height: 1.4; /* 22.4px */
         letter-spacing: 0.08px;
     }
@@ -448,7 +448,7 @@
                 color: $color-text4;
                 @include fz-16;
                 font-style: normal;
-                font-weight: 400;
+                font-weight: 300;
                 line-height: 1.5; /* 150% */
             }
         }
@@ -506,7 +506,7 @@
         color: #fff;
         @include fz-58;
         font-style: normal;
-        font-weight: 800;
+        font-weight: 700;
         line-height: 1.3;
         letter-spacing: 0.29px;
         margin-bottom: 2.4rem;
@@ -592,7 +592,7 @@
             text-align: center;
             @include fz-18;
             font-style: normal;
-            font-weight: 600;
+            font-weight: 500;
             line-height: 1.4; /* 25.2px */
             letter-spacing: 0.27px;
             display: flex;
@@ -721,7 +721,7 @@
 
             @include fz-18;
             font-style: normal;
-            font-weight: 600;
+            font-weight: 500;
             line-height: 1.4;
             letter-spacing: 0.27px;
             @media screen and (max-width: 768px) {
@@ -771,7 +771,7 @@
 
             @include fz-18;
             font-style: normal;
-            font-weight: 600;
+            font-weight: 500;
             line-height: 1.4;
             letter-spacing: 0.27px;
             &::before {
@@ -918,7 +918,7 @@
             @include fz-24;
             // font-size: 1.4vw;
             font-style: normal;
-            font-weight: 800;
+            font-weight: 700;
             line-height: normal;
             letter-spacing: 1.92px;
             text-transform: uppercase;

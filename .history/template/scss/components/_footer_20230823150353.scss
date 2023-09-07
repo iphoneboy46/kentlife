@@ -71,13 +71,13 @@
             color: $color-text4;
             @include fz-14;
             font-style: normal;
-            font-weight: 400;
+            font-weight: 300;
             line-height: 1.4;
             &::placeholder {
                 color: $color-text4;
                 @include fz-14;
                 font-style: normal;
-                font-weight: 400;
+                font-weight: 300;
                 line-height: 1.4;
             }
         }

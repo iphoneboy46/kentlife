@@ -21,7 +21,7 @@ body {
     font-family: "Montserrat";
     font-size: 1.6rem;
     line-height: 1.5;
-    font-weight: 400;
+    font-weight: 300;
     -webkit-tap-highlight-color: transparent;
     color: $color-text;
 
@@ -216,7 +216,7 @@ img {
     @include fz-40;
 
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 1.3;
 }
 
@@ -224,7 +224,7 @@ img {
     color: $color-third;
     @include fz-24;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 700;
     line-height: normal;
     letter-spacing: 1.92px;
     text-transform: uppercase;

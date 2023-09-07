@@ -125,7 +125,7 @@
         url('Montserrat-SemiBold.woff2') format('woff2'),
         url('Montserrat-SemiBold.woff') format('woff'),
         url('Montserrat-SemiBold.ttf') format('truetype');
-    font-weight: 600;
+    font-weight: 500;
     font-style: normal;
     font-display: swap;
 }
@@ -209,7 +209,7 @@
         url('Montserrat-SemiBoldItalic.woff2') format('woff2'),
         url('Montserrat-SemiBoldItalic.woff') format('woff'),
         url('Montserrat-SemiBoldItalic.ttf') format('truetype');
-    font-weight: 600;
+    font-weight: 500;
     font-style: italic;
     font-display: swap;
 }

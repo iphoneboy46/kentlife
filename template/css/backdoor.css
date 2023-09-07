@@ -16,7 +16,13 @@
 
 @media screen and (max-width:600px) {
     .fixedbar{
-        right: 1rem;
+        right: 1rem !important;
+    }
+
+    .fixedbar-item{
+       
+    width: 3.8rem  !important;
+    height: 3.8rem  !important;
     }
    
 }

@@ -24,7 +24,7 @@
 
     & > .page-numbers {
       line-height: 1.5;
-      font-weight: 400;
+      font-weight: 300;
       color: $color-text;
       @include mid-flex;
       cursor: pointer;
@@ -65,7 +65,7 @@
       }
 
       .icon {
-        font-weight: 400;
+        font-weight: 300;
       }
     }
   }
@@ -77,7 +77,7 @@
     color: black;
 
     i {
-      font-weight: 400;
+      font-weight: 300;
     }
 
     > .page-numbers {

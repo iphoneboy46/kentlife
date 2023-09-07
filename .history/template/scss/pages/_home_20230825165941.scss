@@ -154,7 +154,7 @@
         color: $color-second;
         @include fz-32;
         font-style: normal;
-        font-weight: 800;
+        font-weight: 700;
         line-height: 1.3;
         letter-spacing: 0.16px;
         text-transform: uppercase;
@@ -201,7 +201,7 @@
         color: $color-text4;
         @include fz-16;
         font-style: normal;
-        font-weight: 400;
+        font-weight: 300;
         line-height: 1.6; /* 25.6px */
         height: 31.2rem;
         overflow-y: auto;
@@ -227,7 +227,7 @@
             color: $color-black;
             @include fz-16;
             font-style: normal;
-            font-weight: 600;
+            font-weight: 500;
             line-height: 1.6; /* 25.6px */
             letter-spacing: 0.08px;
             text-align: center;
@@ -334,7 +334,7 @@
         @include fz-16;
 
         font-style: normal;
-        font-weight: 400;
+        font-weight: 300;
         line-height: 1.6; /* 25.6px */
         margin: 0 auto 6.8rem;
 
@@ -420,7 +420,7 @@
             text-align: center;
             font-size: 1.4vw;
             font-style: normal;
-            font-weight: 600;
+            font-weight: 500;
             line-height: 1.3; /* 31.2px */
         }
 
@@ -721,7 +721,7 @@
             text-align: center;
             @include fz-20;
             font-style: normal;
-            font-weight: 600;
+            font-weight: 500;
             line-height: 1.3; /* 31.2px */
         }
 
@@ -997,7 +997,7 @@
 
                 @include fz-16;
                 font-style: normal;
-                font-weight: 600;
+                font-weight: 500;
                 line-height: normal;
 
                 @media screen and (max-width: 1200px) {
@@ -1063,7 +1063,7 @@
                 // @include fz-24;
                 font-size: 1.5vw;
                 font-style: normal;
-                font-weight: 800;
+                font-weight: 700;
                 line-height: normal;
                 letter-spacing: 1.92px;
                 text-transform: uppercase;
@@ -1088,7 +1088,7 @@
                 color: $color-second;
                 @include fz-16;
                 font-style: normal;
-                font-weight: 400;
+                font-weight: 300;
                 line-height: 1.6; /* 25.6px */
                 max-width: 61rem;
                 height: 8rem;
@@ -1179,7 +1179,7 @@
             color: $color-text;
             @include fz-16;
             font-style: normal;
-            font-weight: 400;
+            font-weight: 300;
             line-height: 1.6;
 
             @media screen and (max-width: 1200px) {
@@ -1256,7 +1256,7 @@
                 @include fz-16;
                 font-size: 16px;
                 font-style: normal;
-                font-weight: 400;
+                font-weight: 300;
                 line-height: 1.6;
             }
 
@@ -1268,7 +1268,7 @@
             @include fz-16;
             font-size: 16px;
             font-style: normal;
-            font-weight: 600;
+            font-weight: 500;
             line-height: 1.6; /* 25.6px */
         }
 
@@ -1284,7 +1284,7 @@
                 @include fz-16;
                 font-size: 16px;
                 font-style: normal;
-                font-weight: 400;
+                font-weight: 300;
                 line-height: 1.6;
             }
 
@@ -1296,7 +1296,7 @@
             @include fz-16;
             font-size: 16px;
             font-style: normal;
-            font-weight: 600;
+            font-weight: 500;
             line-height: 1.6; /* 25.6px */
         }
     }

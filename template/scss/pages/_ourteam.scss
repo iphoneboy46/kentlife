@@ -207,6 +207,7 @@
             position: absolute;
             left: 50%;
             top: -5rem;
+            z-index: 5;
             transform: translateX(-50%);
         }
 
@@ -257,7 +258,7 @@
                 color: #333332;
                 @include fz-16;
                 font-style: normal;
-                font-weight: 400;
+                font-weight: 300;
                 line-height: normal;
                 max-width: 49rem;
                 height: 11rem;
@@ -280,6 +281,10 @@
                 height: 0.5rem;
                 background-color: white;
                 z-index: 1;
+
+                @media screen and (max-width:1200px) {
+                    display: none;
+                }
             }
 
             &::before {
@@ -291,7 +296,9 @@
                 height: 0.5rem;
                 background-color: white;
 
-
+                @media screen and (max-width:1200px) {
+                    display: none;
+                }
             }
 
             &-ic {

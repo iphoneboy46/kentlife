@@ -61,8 +61,8 @@ export default function SwiperModule() {
       speed: 1000,
       centeredSlides: true, loop: true,
       navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
+        nextEl: homeNewSl.querySelector(".next"),
+        prevEl: homeNewSl.querySelector(".prev"),
       },
     });
   }
@@ -170,5 +170,38 @@ export default function SwiperModule() {
         },
       },
     });
+  }
+
+
+  var voiceAbout = document.querySelector(".home-fb");
+  if (voiceAbout) {
+    const voiceLeft = voiceAbout.querySelector(".voice-about-left");
+    var swiperVoice1 = new Swiper(voiceLeft.querySelector(".mySwiper"), {
+      grabCursor: true,
+      effect: "creative",
+      speed: 1000,
+
+      creativeEffect: {
+        prev: {
+          shadow: true,
+          translate: [0, 0, -400],
+        },
+        next: {
+          translate: ["100%", 0, 0],
+        },
+      },
+    });
+
+    const voiceRight = voiceAbout.querySelector(".voice-about-right");
+    var swiperVoice2 = new Swiper(voiceRight.querySelector(".mySwiper2"), {
+      navigation: {
+        nextEl: ".btn-next-voice",
+        prevEl: ".btn-prev-voice",
+      },
+      speed: 1000,
+    });
+
+    swiperVoice1.controller.control = swiperVoice2;
+    swiperVoice2.controller.control = swiperVoice1;
   }
 }

@@ -47,7 +47,7 @@
     color: $color-text;
     opacity: 1;
     @include fz-16;
-    font-weight: 400;
+    font-weight: 300;
     display: inline !important;
     @include lc(1);
     width: 100%;
@@ -92,7 +92,7 @@
     background-color: transparent;
     color: $color-black;
     font-size: 1.6rem;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .select2-container--default .select2-selection--single .select2-selection__arrow {
@@ -108,7 +108,7 @@
 
 .select2-results__option {
     font-size: 1.6rem;
-    font-weight: 400;
+    font-weight: 300;
     padding-left: 1.9rem;
     padding-right: 1.9rem;
 }
